@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.albatros.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:background="@color/background_layout"
+    >
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/logotipo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+
+
+        android:background="@drawable/background_with_shadow">
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:onClick="datePicker"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+
+            />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/mostrar_fecha"
+    android:textAlignment="center"
+    android:text="Enero 1,2016"
+    android:textColor="@color/text_color"
+    />
+
+        <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ORIGEN"
+    android:textSize="20dp"
+    android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+    android:textAlignment="center"/>
+      <Spinner
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="10dp"
+          android:id="@+id/spinner_origen"
+          android:textAlignment="center"
+          android:background="@color/spinner_background"
+          android:popupBackground="@color/spinner_background"
+
+          />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="DESTINO"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"/>
+        <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+        android:id="@+id/spinner_destino"
+            android:textAlignment="center"
+            android:background="@color/spinner_background"
+            android:popupBackground="@color/spinner_background"
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/btn_horarios"
+            android:text="VER HORARIOS"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/background_with_shadow">
+
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

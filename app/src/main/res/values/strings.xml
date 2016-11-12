@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Albatros</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nosotros">Empresa  integrada por dos familias con antecesores dedicados al transporte de pasajeros. Formando parte de los pioneros en el servicio de transporte, cuando los caminos eran de terracería y los viajes  duraban varios días para recorrer pequeñas  distancias.
+
+Aquí nació la gran pasión por éste negocio, lo que nos motiva para que cada día  nos esforcemos en brindarte el mejor servicio.
+
+Albatros  nace ante la necesidad de un servicio digno de pasaje entre las ciudades de Hermosillo, Caborca y  Puerto Peñasco.  En marzo del 2003, iniciamos el servicio con una flota de seis autobuses y solo cuatro horarios de salida diarios.
+
+Desde los primeros años  empezamos a sentir una gran aceptación, se adquirieron más  unidades nuevas y para finales de 2003 ya ofrecíamos seis salidas diarias.
+
+Actualmente se cubren 11 ciudades del Estado de Sonora, con centrales de autobuses modernas y equipadas, con un parque vehicular de 45 unidades, con más de sesenta servicios diarios alrededor del estado.</string>
+
+<string name="paqueteria">Paralelamente ofrecemos un servicio de paquetería y mensajería
+Contamos con 20 unidades de carga y reparto.
+Se presta servicio entre las ciudades de:
+Huatabampo - Navojoa - Cd. Obregón - Guaymas - Hermosillo - Nogales - Magdalena - Caborca - Nogales - Puerto Peñasco - Sonoyta - S.L.R.C. - Mexicali - Tijuana - Ensenada</string>
+    <string name="vision">Consientes del  crecimiento económico en el que se encuentra nuestra región, buscamos prepararnos y expandirnos a nivel Noroeste ofreciendo un servicio eficiente, de calidad, seguro y digno de nuestros usuarios.</string>
+
+    <string name="camiones1">Empresa preocupada por el medio ambiente al estar renovando autobuses con sistemas ecológicos según la norma oficial EURO 5 (ADBLUE)</string>
+    <string name="camiones2">Todos nuestros autobuses están equipados con Wi Fi gratuito</string>
+    <string name="camiones3">Nos esforzamos por conservar nuestros Autobuses en perfecto estado de higiene</string>
+    <string name="camiones4">Atención a clientes durante el viaje para comentarios o sugerencias (Lada 800, mms ó email) </string>
+    <string name="camiones5">Proyección de gran variedad de películas</string>
+    <string name="camiones6">Unidades nuevas en las cuales podrá disfrutar además de la excelente comodidad de sus asientos, viajes más directos y sin escalas.</string>
+
+<string name="Paqueteria1">Servicio en Sonora y Baja California:
+
+Huatabampo - Navojoa - Cd. Obregón - Guaymas - Hermosillo - Caborca - Nogales - Sonoyta - SLRC y además Mexicali, Tijuana y Ensenada.</string>
+    <string name="paqueteria2">Contamos con un excelente servicio de recolección y entrega a domicilio. </string>
+    <string name="paqueteria3">Tenemos paquetería urgente que se envía por autobús con excelentes tiempos de entrega.</string>
+
+
+</resources>

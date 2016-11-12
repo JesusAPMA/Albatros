@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nosotros"
+            android:title="Nosotros"/>
+        <!--android:icon="@drawable/ic_menu_camera"-->
+
+        <item
+            android:id="@+id/nav_autobuses"
+            android:title="Autobuses"
+            />
+           <!-- android:icon="@drawable/ic_menu_gallery"-->
+
+        <item
+            android:id="@+id/nav_paqueteria"
+            android:title="Paqueteria" />
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+
+        <item
+            android:id="@+id/nav_oficinas"
+            android:title="Oficinas" />
+            <!--android:icon="@drawable/ic_menu_manage"-->
+
+                <item
+                    android:id="@+id/nav_factura"
+                    android:title="Factura electronica"
+                    />
+                <!--android:icon="@drawable/ic_menu_share"-->
+
+                <item
+                    android:id="@+id/nav_tips"
+                    android:title="Tips de viaje" />
+                <!--android:icon="@drawable/ic_menu_send"-->
+
+                <item
+                    android:id="@+id/nav_contacto"
+                    android:title="Contacto" />
+                <!--android:icon="@drawable/ic_menu_send"-->
+
+
+    </group>
+    <!--- -->
+
+
+</menu>
